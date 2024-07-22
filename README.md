@@ -1,7 +1,1 @@
-Using parsing, I had to:  
-📊 Find the average grade
-🥇 List the top 3 students 
-📉 Identify failing students 
-➕ Add a student 
-➖ Remove a student 
-✏️ Update a student's score.
+Using parsing, I had to:  find the average grade, list the top three performing students, indentify failing students, add a student, remove a student, and update a student's score.
