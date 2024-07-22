@@ -1,0 +1,18 @@
+
+fObj = open("ListofStudents.txt")
+
+while True:
+    currentLine = fObj.readline()
+
+    if not currentLine:
+        break
+
+class StudentsInfo:
+    def __init__(self, firstname, lastname, score, dateofbirth, studentnumber, grade, classnumber, numberofclasses): 
+        self.firstname = currentLine[0:currentLine.index("-")]
+        print(self.firstname)
+        self.lastname = currentLine[currentLine.index("-")+1:currentLine.index(" ")]
+        print(self.lastname)
+        self.mark = currentLine[currentLine.index(" ")+1:len(currentLine)-1]
+        print(self.mark)
+        
