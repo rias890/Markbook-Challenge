@@ -1,6 +1,6 @@
 Using parsing, I had to:  
-📊 Find the average grade /n
-🥇 List the top 3 students /n
+📊 Find the average grade
+🥇 List the top 3 students 
 📉 Identify failing students 
 ➕ Add a student 
 ➖ Remove a student 
